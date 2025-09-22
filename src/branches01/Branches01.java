@@ -17,11 +17,15 @@ public class Branches01 {
         String s = "Hola";
         int x = search(s);
         System.out.println(x);
+        
+        Partitura score = new Partitura();
       
         System.out.println("Hola ESTRELLITAS LA TIERRA LES DICE HOLA");
         
         String p = "Soy una taza una tetera una cuchara un cucharon un plat hondo un plato llano un cuchillito y un tenedo";
         System.out.println("miua made with cage free eggs");
+        
+        score.setNombre("Tierra Mia");
         
         String [] pal = p.split(" ");
         for (int i = 0; i < pal.length; i++) {
@@ -29,6 +33,7 @@ public class Branches01 {
             System.out.println(i);
         }
         System.out.println("papaya");
+        score.setCompas("4/4");
         
     }
     
