@@ -14,7 +14,18 @@ public class Branches01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola");
+        String s = "Hola";
+        int x = search(s);
+        System.out.println(x);
+    }
+    
+    public static int search(String nombre){
+        for (int i = 0; i < 10; i++) {
+            if (nombre=="Hola") {
+                return i;
+            }
+        }
+        return -1;
     }
     
 }
