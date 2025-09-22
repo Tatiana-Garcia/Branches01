@@ -18,18 +18,23 @@ public class Branches01 {
         int x = search(s);
         System.out.println(x);
       
-        System.out.println("Hola");
+        System.out.println("Hola ESTRELLITAS LA TIERRA LES DICE HOLA");
         
         String p = "Soy una taza una tetera una cuchara un cucharon un plat hondo un plato llano un cuchillito y un tenedo";
+        System.out.println("miua made with cage free eggs");
+        
         String [] pal = p.split(" ");
         for (int i = 0; i < pal.length; i++) {
             System.out.println(pal[i]);
+            System.out.println(i);
         }
+        System.out.println("papaya");
+        
     }
     
     public static int search(String nombre){
         for (int i = 0; i < 10; i++) {
-            if (nombre=="Hola") {
+            if (nombre=="Hola" && nombre.length() > 3) {
                 return i;
             }
         }
