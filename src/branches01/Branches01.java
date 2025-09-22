@@ -16,6 +16,9 @@ public class Branches01 {
     public static void main(String[] args) {
         String s = "Hola";
         int x = search(s);
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
         System.out.println(x);
         
         Partitura score = new Partitura();
@@ -28,6 +31,9 @@ public class Branches01 {
         score.setNombre("Tierra Mia");
         
         String [] pal = p.split(" ");
+        
+        si(m);
+        
         for (int i = 0; i < pal.length; i++) {
             System.out.println(pal[i]);
             System.out.println(i);
@@ -36,6 +42,16 @@ public class Branches01 {
         score.setCompas("4/4");
         
     }
+
+    public static void si(int n){
+        while (n > 0) { 
+            n--;
+            System.out.println("no");
+        }
+        System.out.println("si");
+    }
+    
+    static int m = 9;
     
     public static int search(String nombre){
         for (int i = 0; i < 10; i++) {
