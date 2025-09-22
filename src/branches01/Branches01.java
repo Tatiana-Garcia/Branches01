@@ -16,6 +16,9 @@ public class Branches01 {
     public static void main(String[] args) {
         String s = "Hola";
         int x = search(s);
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
         System.out.println(x);
       
         System.out.println("Hola ESTRELLITAS LA TIERRA LES DICE HOLA");
@@ -25,7 +28,7 @@ public class Branches01 {
         
         String [] pal = p.split(" ");
         
-        si(5);
+        si(m);
         
         for (int i = 0; i < pal.length; i++) {
             System.out.println(pal[i]);
@@ -42,6 +45,8 @@ public class Branches01 {
         }
         System.out.println("si");
     }
+    
+    static int m = 9;
     
     public static int search(String nombre){
         for (int i = 0; i < 10; i++) {
