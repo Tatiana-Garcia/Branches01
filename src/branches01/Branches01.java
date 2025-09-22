@@ -15,6 +15,13 @@ public class Branches01 {
      */
     public static void main(String[] args) {
         System.out.println("Hola");
+        
+        
+        String p = "Soy una taza una tetera una cuchara un cucharon un plat hondo un plato llano un cuchillito y un tenedo";
+        String [] pal = p.split(" ");
+        for (int i = 0; i < pal.length; i++) {
+            System.out.println(pal[i]);
+        }
     }
     
 }
