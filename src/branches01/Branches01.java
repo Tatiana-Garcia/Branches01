@@ -24,12 +24,23 @@ public class Branches01 {
         System.out.println("miua made with cage free eggs");
         
         String [] pal = p.split(" ");
+        
+        si(5);
+        
         for (int i = 0; i < pal.length; i++) {
             System.out.println(pal[i]);
             System.out.println(i);
         }
         System.out.println("papaya");
         
+    }
+
+    public static void si(int n){
+        while (n > 0) { 
+            n--;
+            System.out.println("no");
+        }
+        System.out.println("si");
     }
     
     public static int search(String nombre){
